@@ -6,6 +6,8 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://jdariasp-create.github.io",
+  base: "/jdarias_eportafolio-bd1",
   integrations: [tailwind(), react()],
   vite: {
     resolve: {
